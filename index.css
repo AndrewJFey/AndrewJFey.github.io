@@ -8,8 +8,8 @@ body {
 @media screen and (max-width: 600px) {
     body {
         background: green;
-        width: 15rem;
-        height: 18rem;
+        width: auto;
+        max-height: 29.7cm;
         margin: 0 auto;
     }
 }
