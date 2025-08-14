@@ -258,7 +258,7 @@ img {
     .smallText, .smallText span, .smallText p, .smallText a { font-size: 0.9rem; }
 
     /* Scale images proportionally */
-    img { width: 50%; height: 50%; }
+    img { width: 100px; height: 100px; }
 }
 
 /* Hide menu button on desktop */
