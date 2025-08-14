@@ -221,13 +221,6 @@ img {
         left: 0;
     }
 
-    /* Push right panel over when menu is open */
-    .rightPanel {
-        width: 100%;
-        padding: 1rem;
-        transition: margin-left 0.3s ease;
-    }
-
     .leftPanel.active ~ .rightPanel {
         margin-left: 70%;
     }
