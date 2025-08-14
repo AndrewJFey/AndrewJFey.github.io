@@ -114,6 +114,25 @@ img {
     transition: left 0.3s ease;
 }
 
+/* Ensure left panel text + links use the original color */
+.leftPanel,
+.leftPanel a {
+    color: #bebebe;
+    text-decoration: none; /* optional; remove if you want underlines */
+}
+
+/* Keep left panel section headers white */
+.leftPanel h2 {
+    color: white;
+}
+
+/* Keep the separator line visible */
+.bottomLineSeparator {
+    border-bottom: 0.05cm solid white;
+}
+
+a { color: inherit; }
+
 .rightPanel {
     width: 69%;
     padding: 1.8rem;
