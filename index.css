@@ -1,11 +1,11 @@
 body {
     background: rgb(204,204,204);
-    width: 21cm;
-    height: 29.7cm;
+    max-width: 21cm;
+    height: auto;
     margin: 0 auto;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     body {
         background: green;
         width: 15rem;
