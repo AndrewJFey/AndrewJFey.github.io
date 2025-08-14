@@ -5,6 +5,15 @@ body {
     margin: 0 auto;
 }
 
+@media screen and (min-width: 480px) {
+    body {
+        background: green;
+        width: 15rem;
+        height: 18rem;
+        margin: 0 auto;
+    }
+}
+
 page {
     background: white;
     display: block;
