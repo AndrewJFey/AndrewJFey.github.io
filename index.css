@@ -259,10 +259,11 @@ img {
 
     /* Scale images proportionally */
     img {
-        width: 8rem; /* smaller but fixed */
-        height: 8rem; 
+        width: 50%;
+        height: auto;
         border-radius: 50%;
         object-fit: cover;
+        aspect-ratio: 1 / 1; /* keeps it square */
     }
 }
 
