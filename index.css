@@ -35,6 +35,28 @@ page {
         width: 21cm;
         height: 29.7cm;
     }
+
+   .leftPanel {
+    width: 27%;
+    background-color: #484444;
+    padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: left 0.3s ease;
+   }
+
+   /* Ensure left panel text + links use the original color */
+   .leftPanel,
+   .leftPanel a {
+       color: #bebebe;
+       text-decoration: none; /* optional; remove if you want underlines */
+   }
+
+   /* Keep left panel section headers white */
+   .leftPanel h2 {
+       color: white;
+   }
 }
 
 @page {
